@@ -1,0 +1,61 @@
+/***Small***/
+@media only screen and (min-width:0px)and (max-width:599px) {
+    #view{
+        width:100%;
+        float:left;
+    }
+    .sm1{
+        width:100%;
+        background:#000;
+        color:whitesmoke;
+        font-size:1.4rem;
+    }
+}
+/***Medium***/
+@media only screen and (min-width:600px ){    
+    .md1{
+        width:16.666667%;
+    }
+    .md2{
+        width:25%;
+    }
+    .md3{
+        width:33.333333%;
+    }
+    .md4{
+        width:50%;
+    }
+    .md5{
+        width:66.666667%;
+    }
+    .md6{
+        width:75%;
+    }
+    .md7{
+        width:83.333334%;
+    }
+    .md8{
+        width:100%;
+    }
+}
+/***Larg***/
+@media only screen and (min-width:860px ) {
+    .lg1, .lg2, .lg3, .lg4, .lg5{
+        float:left;
+    }
+    .lg1{
+        width:25%;
+    }
+    .lg2{
+        width:33.333333%;
+    }
+    .lg3{
+        width:50%;        
+    }
+    .lg4{
+        width:66.666666%;
+    }
+    .lg5{
+        width:100%;
+    }
+}
