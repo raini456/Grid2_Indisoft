@@ -18,15 +18,21 @@
         <!--<input type='text' ng-model='test'><br>{{test}}-->
         <!--container all-->
         <div class="container">
-            <header ng-include="'kanzlei/header.html'"></header>        
+            <header ng-include="'kanzlei/header.html'"></header> 
+        </div>
+        <div class="container main-content">
             <!--main-->
             <div class="row content">
                 <div ng-include="'kanzlei/asideLeft.html'"></div>
                 <div ng-view id="view">Main</div>
                 <div ng-include="'kanzlei/asideRight.html'"></div>
-            </div>
+            </div>                
+        </div>
+        <div class="container main-content">
             <!--cards-->
-            <div ng-include="'kanzlei/cards.html'"></div>           
+            <div ng-include="'kanzlei/cards.html'"></div> 
+        </div>
+        <div class="container">
             <div ng-include="'kanzlei/footer.html'"></div>            
         </div><!--eof container-->
     </body>

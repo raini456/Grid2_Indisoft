@@ -23,6 +23,10 @@ body {
 .container:last-child {	
 	margin-bottom:2%;
 }
+.main-content{
+    width:98.5%;
+    margin:0 auto;
+}
 .columns{
    padding:2% 5%;
    box-shadow:0 0 5px whitesmoke;   
@@ -60,8 +64,22 @@ body {
     background-color:#000;
     color:whitesmoke;
 }
+
+nav ul{
+    list-style: none;
+    float:left;
+}
+nav ul li{
+    border:2px ridge wheat;
+    margin:1%;
+    border-radius:5px;
+    cursor:pointer;
+    background-color:#999999;
+    color:whitesmoke;
+}
 #view{
-    
+    background-color:#ccffff;
+    color:green;    
 }
 article, #navi{
     float:left;
@@ -72,7 +90,21 @@ article, #navi{
 #cards div{    
     border:1px solid gray;
 }
+#cards .columns:nth-of-type(1),#cards .columns:nth-of-type(3){
+    background-color:lightgray;
+}
+#cards .columns:nth-of-type(2){
+    background-color:#1b685b;
+}
+
 
 article:nth-of-type(1), article:nth-of-type(3){
     background-color:orange;    
+}
+article:nth-of-type(2){
+    background-color:#f5e5af;    
+}
+footer{
+   width:100%;   
+   opacity:0.6;
 }
