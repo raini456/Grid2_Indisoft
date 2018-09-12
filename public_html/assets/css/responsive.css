@@ -37,6 +37,31 @@
     .md8{
         width:100%;
     }
+    .md1-offset{
+        margin-left:16.666667%;
+    }
+    .md2-offset{
+        margin-left:25%;
+    }
+    .md3-offset{
+        margin-left:33.333333%;
+    }
+    .md4-offset{
+        margin-left:50%;
+    }
+    .md5-offset{
+        margin-left:66.666667%;
+    }
+    .md6-offset{
+        margin-left:75%;
+    }
+    .md7-offset{
+        margin-left:83.333334%;
+    }    
+    #asideRight .columns{
+        float:left;
+    }
+     
 }
 /***Larg***/
 @media only screen and (min-width:860px ) {
@@ -58,4 +83,16 @@
     .lg5{
         width:100%;
     }
+    .lg1-offset{
+        margin-left:25%;
+    }
+    .lg2-offset{
+        margin-left:33.333333%;
+    }
+    .lg3-offset{
+        margin-left:50%;        
+    }
+    .lg4-offset{
+        margin-left:66.666666%;
+    }    
 }

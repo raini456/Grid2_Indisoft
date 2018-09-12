@@ -8,13 +8,14 @@ html {
     font: 1.3rem Arial;  /*base for em sizes*/;
 }
 body {
-    background: #f9f9f9;
+    background:#f1f1f1;
 }
 .container {    
     max-width:1080px;
-    width:90%;
+    width:100%;
     margin:0 auto;
     text-align: center;
+    background:whitesmoke;
 }
 .container:first-child {
 	margin-top: 2%;
@@ -24,7 +25,20 @@ body {
 }
 .columns{
    padding:2% 5%;
-   box-shadow:0 0 5px whitesmoke;
+   box-shadow:0 0 5px whitesmoke;   
+}
+.push{
+    float:right !important;
+}
+.pull{
+    float:left !important;
+}
+#asideRight{    
+    height:auto;
+}
+#team{
+    background:#ddd;
+    border:1px black ridge;
 }
 #cards div{
     float:left;
@@ -38,6 +52,9 @@ body {
 }
 .row:after{
     clear:both;
+}
+.row .row{
+    padding:0;
 }
 .header, footer{
     background-color:#000;
